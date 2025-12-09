@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "auth-practice-bru",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

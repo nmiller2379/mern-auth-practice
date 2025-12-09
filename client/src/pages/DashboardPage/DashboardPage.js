@@ -8,7 +8,7 @@ export default function DashboardPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/dashboard", { withCredentials: true })
+      .post("http://localhost:8080/dashboard", null, { withCredentials: true })
       .then((res) => {
         console.log(res.data);
         setUsername(res.data.user.username);
